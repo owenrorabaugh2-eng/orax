@@ -1,0 +1,61 @@
+<!-- =========================== index.html =========================== -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Your Site — Home</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+<div class="container nav-wrap">
+<a class="logo" href="/">YOUR SITE</a>
+<nav class="nav" id="nav">
+<a href="#news">News</a>
+<a href="#videos">Videos</a>
+<a href="#music">Music</a>
+<a href="#fashion">Fashion</a>
+<a href="#about">About</a>
+</nav>
+<button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+</div>
+</header>
+
+
+<!-- Hero / Featured -->
+<section class="hero">
+<div class="container hero-grid">
+<article class="hero-feature">
+<a href="post.html" class="hero-card">
+<img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1600&auto=format&fit=crop" alt="Featured" />
+<div class="hero-text">
+<span class="pill">FEATURED</span>
+<h1>Artist X drops a surprise video</h1>
+<p>Shot-by-shot breakdown, cameos, and production credits.</p>
+</div>
+</a>
+</article>
+<aside class="hero-side">
+<a class="side-card" href="post.html">
+<span class="pill">NEWS</span>
+<h3>Festival lineup announced</h3>
+</a>
+<a class="side-card" href="post.html">
+<span class="pill">MUSIC</span>
+<h3>New single: midnight release</h3>
+</a>
+<a class="side-card" href="post.html">
+<span class="pill">VIDEO</span>
+<h3>Behind-the-scenes mini doc</h3>
+</a>
+</aside>
+</div>
+</section>
+
+
+<!-- Category filters -->
+<section class="container filters">
+<button class="filter-btn active" data-filter="all">All</button>
+<button class="filter-btn" data-filter="news">News</button>
+<button class="filter-btn" data-filter="video">Video</button>
